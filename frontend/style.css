@@ -1,0 +1,140 @@
+/* General Styles */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f8f9fa;
+    color: #343a40;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1,
+h2 {
+    color: #007bff;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Form Styles */
+#form-container {
+    border: none;
+    /* Remove the border */
+    padding: 20px;
+    background-color: #f8f9fa;
+    margin-bottom: 20px;
+    border-radius: 8px;
+}
+
+#contrato-form {
+    display: flex;
+    flex-direction: column;
+}
+
+#contrato-form label {
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #495057;
+}
+
+#contrato-form input[type="text"],
+#contrato-form input[type="number"] {
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ced4da;
+    border-radius: 4px;
+    font-size: 1rem;
+}
+
+#contrato-form button {
+    padding: 12px 20px;
+    font-size: 1rem;
+    background-color: #28a745;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#contrato-form button:hover {
+    background-color: #218838;
+}
+
+/* List Styles */
+#contratos-container {
+    border: none;
+    /* Remove the border */
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+}
+
+#contratos-list {
+    list-style: none;
+    padding: 0;
+}
+
+#contratos-list li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    border-bottom: 1px solid #dee2e6;
+    transition: background-color 0.3s ease;
+}
+
+#contratos-list li:last-child {
+    border-bottom: none;
+}
+
+#contratos-list li:hover {
+    background-color: #f8f9fa;
+}
+
+/* Button Styles */
+.edit-button,
+.delete-button {
+    padding: 8px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    color: white;
+}
+
+.edit-button {
+    background-color: #17a2b8;
+}
+
+.edit-button:hover {
+    background-color: #138496;
+}
+
+.delete-button {
+    background-color: #dc3545;
+}
+
+.delete-button:hover {
+    background-color: #c82333;
+}
+
+/* Footer Styles */
+footer {
+    text-align: center;
+    padding: 20px;
+    margin-top: auto;
+    background-color: #343a40;
+    color: #fff;
+}
